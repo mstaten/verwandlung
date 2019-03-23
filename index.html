@@ -2,77 +2,108 @@
 <html>
     <head>
         <title>Die Verwandlung</title>
+        <link rel="stylesheet" type="text/css" href="normalization.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet" />
     </head>
     <body>
-        <br>
-        <nav>
+
+        <header class="top">
+            <h1>
+                <em>Die Verwandlung</em> 
+                <span>von Franz Kafka</span>
+            </h1>
+            <nav class="site-nav upper">
+                <ul>
+                    <li>Zusammenfassung</li>
+                    <li>Themen</li>
+                    <li>Motive</li>
+                    <li>Biographie</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="header-wrapper">
+            <header class="page-header">
+                <h1 class="page">Themen</h1>
+                <hr>
+                <h1 class="upper">Entmenschlichung</h1>
+            </header>
+        </div>
+
+        <nav class="page-nav">
+            <h3>Inhalt</h3>
             <ul>
-                <li>Die Gewalt des Vaters</li>
-                <li>Die Kommunikationslücke</li>
-                <li>Gregors Entmenschlichung</li>
+                <li><a href="#die-gewalt">Die Gewalt des Vaters</a></li>
+                <li><a href="#die-kommunikationslücke">Die Kommunikationslücke</a></li>
+                <li><a href="#gregor">Gregors Entmenschlichung</a></li>
             </ul>
         </nav>
 
-        <header><em>Die Verwandlung</em> von Franz Kafka</header>
-        <h3>Diese Seite widmet sich dem Thema von Entmenschlichung in Franz Kafkas <em>Die Verwandlung</em>.</h3>
-        
         <main>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Metamorphosis.jpg/330px-Metamorphosis.jpg" />
             <article>
-
-                <h1>Das Thema von Entmenschlichung</h1>
                 <p>Als er eines Morgens aufgewacht ist, wird Gregor in ein Ungeziefer umgewandelt. Im Laufe der Erzählung verliert er den Rest seiner Menschlichkeit. Das Verhalten von Gregors Familie entmenschlicht ihn weiter, und in der Prozess benehmen sie sich, als ob sie auch Untiere sind.</p>
-                <br>
+                <span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Metamorphosis.jpg/330px-Metamorphosis.jpg" alt="Das Cover von Die Verwandlung" /></span>
 
-                <h2>Die Gewalt des Vaters</h2>
-                <p>Der Vater wird gewalttätig und wird daher weniger menschlich. 
-                    Die Abwesenheit von Mitleid in dieser Szene zeigt man, wie der Vater eine Leere in sich hat.
-                    Ihm fehlt das menschliche Merkmal, das Mitleid. Er wird unmenschlich.
-                    Die Gewalt entfremdet Gregor von seiner Familie.</p>
-                <p>Der Vater “packte [...] mit der Rechten den Stock des Prokuristen,[...] holte mit der Linken eine große Zeitung vom Tisch und machte sich unter Füßestampfen daran, Gregor durch Schwenken des Stockes und der Zeitung ins Zimmer zurückzutreiben” (18).</p>
-                <p>Der kann seinen Sohn nicht mehr sehen; er verweigert, dieses Wesen als seinen Sohn zu erkennen.
-                    Er sieht nur das vor ihm duckende ungehörige Ungeziefer.
-                    In diesem Moment wird der Vater selbts das grausame Untier. 
-                    Seine Aggression grenzt an gemeingefährlich.</p>
-                <p>Gregor duckt aus Angst von "der tödliche Schlag auf den Rücken oder auf den Kopf" (18).</p>
-                <p>Solche Gewalt von einem Vater gegen seines Sohnes! Solche Haß! 
-                    Es ist fast wie Feindschaft.</p>
-                <p>“Unerbittlich drängte der Vater und stieß Zischlaute aus wie ein Wilder” (18).</p>
-                <br>
+                <div id="die-gewalt">
+                    <h2>Die Gewalt des Vaters</h2>
+                    <hr>
+                    <p>Der Vater wird gewalttätig und wird daher weniger menschlich. 
+                        Die Abwesenheit von Mitleid in dieser Szene zeigt man, wie der Vater eine Leere in sich hat.
+                        Ihm fehlt das menschliche Merkmal, das Mitleid. Er wird unmenschlich.
+                        Die Gewalt entfremdet Gregor von seiner Familie.</p>
+                    <h3 class="pull-quote">Der Vater “packte [...] mit der Rechten den Stock des Prokuristen,[...] holte mit der Linken eine große Zeitung vom Tisch und machte sich unter Füßestampfen daran, Gregor durch Schwenken des Stockes und der Zeitung ins Zimmer zurückzutreiben” (18).</h3>
+                    <p>Der kann seinen Sohn nicht mehr sehen; er verweigert, dieses Wesen als seinen Sohn zu erkennen.
+                        Er sieht nur das vor ihm duckende ungehörige Ungeziefer.
+                        In diesem Moment wird der Vater selbts das grausame Untier. 
+                        Seine Aggression grenzt an gemeingefährlich.</p>
+                    <h3 class="pull-quote">Gregor duckt aus Angst von "der tödliche Schlag auf den Rücken oder auf den Kopf" (18).</h3>
+                    <p>Solche Gewalt von einem Vater gegen seines Sohnes! Solche Haß! 
+                        Es ist fast wie Feindschaft.</p>
+                    <h3 class="pull-quote">“Unerbittlich drängte der Vater und stieß Zischlaute aus wie ein Wilder” (18).</h3>
+                </div>
 
-                <h2>Die Kommunikationslücke</h2>
-                <p>Wenn Grete endlich die Nase voll von dem Ungeziefer hat, fleht sie die Eltern an, Gregor loszuwerden.
-                    Es ist selbstverständlich, dass sie nun auch kein Mitleid mit ihrem Bruder hat.
-                    Sie nennt ihn "Gregor" sogar nicht, aber verkündet,</p>
-                <p>"Ich will vor diesem Untier nicht den Namen meines Bruders aussprechen" (54).</p>
-                <p>Sie ist völlig überzeugt, daß es nicht Gregor ist. 
-                    Deswegen hat sie keine Bedenken, wenn sie sagt daß es los mußt. 
-                    Grete ist der Meinung, die Familie hat “das Menschenmögliche versucht, es zu pflegen und zu dulden… es kann uns niemand den geringsten Vorwurf machen” (55). 
-                    Sie findet sich überhaupt nicht schuldig und denkt sogar, daß ob das Ungeziefer sie verstanden hat, hätte es früher “freiwillig fortgegangen” (56). 
-                    Hier sieht man die große Lücke in Kommunikation zwischen Gregor und Grete:
-                    Gregor kann sie zwar verstehen, aber bleibt, denn er wollte noch leben. 
-                    Sie versteht ihn aber nicht; sie sieht seine Bewegungen nur als bedrohende.
-                    Das Fehlen von Verständnis zwischen Mensch und Tier ist hier zwar einseitig, doch ist es nicht in der Richtung, die man erwartet.</p>
-                <br>
-                
-                <h2>Gregors Entmenschlichung</h2>
-                <p>Gregors Entmenschlichung findet seinen Niederschlag in seinem persönlichen Geschmack (von Essen) und in seinen Empfindungen (Gefühle und Sinn für Gemütlichkeit).
-                    Seine Verwandlung ausdrückt sich am meisten in seinem Körper durch seine geänderte Gefühle zu sein früheres bequemes Zimmer und seine Ernährung.</p>
-                <p>Die Gefühle belegen sich durch seine Gekrieche “unter das Kanapee, wo er sich, trotzdem sein Rücken ein wenig gedrückt wurde[...] gleich sehr behaglich fühlte” (23).</p>
-                <p>Als Käfer mag er nun kleine, dunkle Plätze statt “das hohe freie Zimmer… [das] war ja sein seit fünf Jahren von ihm bewohntes Zimmer” (23).</p>
-                <p>Er fühlt sich nicht mehr angenehm oder bequem in seinem Zimmer, weil es doch nicht für ein kriechendes Geschöpf entworfen ist. 
-                    Gregor erkennt diese Änderung in sich, und dafür fühlt er “eine leichte Scham” als er unter das Sofa kriecht (23). 
-                    In seinem eigenen Zimmer fühlt er sich nicht im Frieden, und er schämt sich über seinen Körper. 
-                    Seine Verwandlung bewirkt auch eine Änderung in Diät. 
-                    Das Essen, das ihm als Mensch ungenießbar sein wurde, schmeckt ihm doch jetzt.</p>
-                <p>Er fand “altes halbverfaultes Gemüse,[...] weißer Soße,” und alten Käse sehr lecker (24).</p>
-                <p>Als die Geschichte schreitet fort, isst er aber fast nichts und leidet er an der Fehlernährung.
-                    Für Gregor ist das Leben nun schwierig geworden; es soll man nicht erstaunen, daß er am Ende des Buches schließlich erbittert wird und sterben will.</p>
-                <br>
+                <div id="die-kommunikationslücke">
+                    <h2>Die Kommunikationslücke</h2>
+                    <hr>
+                    <p>Wenn Grete endlich die Nase voll von dem Ungeziefer hat, fleht sie die Eltern an, Gregor loszuwerden.
+                        Es ist selbstverständlich, dass sie nun auch kein Mitleid mit ihrem Bruder hat.
+                        Sie nennt ihn "Gregor" sogar nicht, aber verkündet,</p>
+                    <h3 class="pull-quote">"Ich will vor diesem Untier nicht den Namen meines Bruders aussprechen" (54).</h3>
+                    <p>Sie ist völlig überzeugt, daß es nicht Gregor ist. 
+                        Deswegen hat sie keine Bedenken, wenn sie sagt daß es los mußt. 
+                        Grete ist der Meinung, die Familie hat “das Menschenmögliche versucht, es zu pflegen und zu dulden… es kann uns niemand den geringsten Vorwurf machen” (55). 
+                        Sie findet sich überhaupt nicht schuldig und denkt sogar, daß ob das Ungeziefer sie verstanden hat, hätte es früher “freiwillig fortgegangen” (56). 
+                        Hier sieht man die große Lücke in Kommunikation zwischen Gregor und Grete:
+                        Gregor kann sie zwar verstehen, aber bleibt, denn er wollte noch leben. 
+                        Sie versteht ihn aber nicht; sie sieht seine Bewegungen nur als bedrohende.
+                        Das Fehlen von Verständnis zwischen Mensch und Tier ist hier zwar einseitig, doch ist es nicht in der Richtung, die man erwartet.</p>
+                </div>
+
+                <span>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Kafka1906_cropped.jpg" alt="Franz Kafka" />
+                <p class="img-text">Der junge Franz Kafka</p>
+                </span>
+
+                <div id="gregor">
+                    <h2>Gregors Entmenschlichung</h2>
+                    <hr>
+                    <p>Gregors Entmenschlichung findet seinen Niederschlag in seinem persönlichen Geschmack (von Essen) und in seinen Empfindungen (Gefühle und Sinn für Gemütlichkeit).
+                        Seine Verwandlung ausdrückt sich am meisten in seinem Körper durch seine geänderte Gefühle zu sein früheres bequemes Zimmer und seine Ernährung.</p>
+                    <h3 class="pull-quote">Die Gefühle belegen sich durch seine Gekrieche “unter das Kanapee, wo er sich, trotzdem sein Rücken ein wenig gedrückt wurde[...] gleich sehr behaglich fühlte” (23).</h3>
+                    <h3 class="pull-quote">Als Käfer mag er nun kleine, dunkle Plätze statt “das hohe freie Zimmer… [das] war ja sein seit fünf Jahren von ihm bewohntes Zimmer” (23).</h3>
+                    <p>Er fühlt sich nicht mehr angenehm oder bequem in seinem Zimmer, weil es doch nicht für ein kriechendes Geschöpf entworfen ist. 
+                        Gregor erkennt diese Änderung in sich, und dafür fühlt er “eine leichte Scham” als er unter das Sofa kriecht (23). 
+                        In seinem eigenen Zimmer fühlt er sich nicht im Frieden, und er schämt sich über seinen Körper. 
+                        Seine Verwandlung bewirkt auch eine Änderung in Diät. 
+                        Das Essen, das ihm als Mensch ungenießbar sein wurde, schmeckt ihm doch jetzt.</p>
+                    <h3 class="pull-quote">Er fand “altes halbverfaultes Gemüse,[...] weißer Soße,” und alten Käse sehr lecker (24).</h3>
+                    <p>Als die Geschichte schreitet fort, isst er aber fast nichts und leidet er an der Fehlernährung.
+                        Für Gregor ist das Leben nun schwierig geworden; es soll man nicht erstaunen, daß er am Ende des Buches schließlich erbittert wird und sterben will.</p>
+                </div>
             </article>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Kafka1906_cropped.jpg" />
         </main>
         
-        <footer></footer>
+        <footer>About this site</footer>
     </body>
 </html>
