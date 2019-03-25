@@ -24,7 +24,8 @@ header {
 
 .top h1 {
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
 }
 
 .top span {
@@ -35,7 +36,7 @@ header {
 
 .site-nav {
     border-top: 0.7px solid #000;
-    border-bottom: 1.5px solid #000;
+    border-bottom: 2px solid #000;
     text-align: center;
     margin: 30px 0;
 }
@@ -46,12 +47,9 @@ header {
     padding: 0 10px;
 }
 
-.header-wrapper {
+.page-header {
     position: relative;
     text-align: center;
-}
-
-.page-header {
     margin: 0;
     padding: 0;
 }

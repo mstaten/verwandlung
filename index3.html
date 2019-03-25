@@ -3,22 +3,23 @@
     <head>
         <title>Die Verwandlung</title>
         <link rel="stylesheet" type="text/css" href="normalization.css" />
-        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="styles3.css" />
         <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet" />
     </head>
-    <body>
 
-        <header class="top">
+    <body class="grid">
+
+        <header class="site-header">
             <h1>
                 <em>Die Verwandlung</em> 
                 <span>von Franz Kafka</span>
             </h1>
             <nav class="site-nav upper">
                 <ul>
-                    <li>Zusammenfassung</li>
-                    <li>Themen</li>
-                    <li>Motive</li>
-                    <li>Biographie</li>
+                    <li><a href="#">Zusammenfassung</a></li>
+                    <li><a href="#">Themen</a></li>
+                    <li><a href="#">Motive</a></li>
+                    <li><a href="#">Biographie</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,20 +30,34 @@
             <h1 class="upper">Entmenschlichung</h1>
         </header>
 
-        <nav class="page-nav">
-            <h3>Inhalt</h3>
-            <ul>
-                <li><a href="#die-gewalt">Die Gewalt des Vaters</a></li>
-                <li><a href="#die-kommunikationslücke">Die Kommunikationslücke</a></li>
-                <li><a href="#gregor">Gregors Entmenschlichung</a></li>
-            </ul>
-        </nav>
+        <div class="page-desc"><p>Als er eines Morgens aufgewacht ist, wird Gregor in ein Ungeziefer umgewandelt. Im Laufe der Erzählung verliert er den Rest seiner Menschlichkeit. Das Verhalten von Gregors Familie entmenschlicht ihn weiter, und in der Prozess benehmen sie sich, als ob sie auch Untiere sind.</p></div>
+    
+        <div class="side-bar">
+            <div class="container">
+                <nav class="page-nav">
+                    <h3>Inhalt</h3>
+                    <ul>
+                        <li><a href="#die-gewalt">Die Gewalt des Vaters</a></li>
+                        <li><a href="#die-kommunikationslücke">Die Kommunikationslücke</a></li>
+                        <li><a href="#gregor">Gregors Entmenschlichung</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="container">
+                <span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Metamorphosis.jpg/330px-Metamorphosis.jpg" alt="Das Cover von Die Verwandlung" /></span>
+            </div>
+
+            <div class="container">
+                <span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Kafka1906_cropped.jpg" alt="Franz Kafka" />
+                    <p class="img-text">Der junge Franz Kafka</p>
+                </span>
+            </div>
+        </div>
 
         <main>
             <article>
-                <p>Als er eines Morgens aufgewacht ist, wird Gregor in ein Ungeziefer umgewandelt. Im Laufe der Erzählung verliert er den Rest seiner Menschlichkeit. Das Verhalten von Gregors Familie entmenschlicht ihn weiter, und in der Prozess benehmen sie sich, als ob sie auch Untiere sind.</p>
-                <span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Metamorphosis.jpg/330px-Metamorphosis.jpg" alt="Das Cover von Die Verwandlung" /></span>
-
                 <div id="die-gewalt">
                     <h2>Die Gewalt des Vaters</h2>
                     <hr>
@@ -78,11 +93,6 @@
                         Das Fehlen von Verständnis zwischen Mensch und Tier ist hier zwar einseitig, doch ist es nicht in der Richtung, die man erwartet.</p>
                 </div>
 
-                <span>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Kafka1906_cropped.jpg" alt="Franz Kafka" />
-                <p class="img-text">Der junge Franz Kafka</p>
-                </span>
-
                 <div id="gregor">
                     <h2>Gregors Entmenschlichung</h2>
                     <hr>
@@ -95,13 +105,18 @@
                         In seinem eigenen Zimmer fühlt er sich nicht im Frieden, und er schämt sich über seinen Körper. 
                         Seine Verwandlung bewirkt auch eine Änderung in Diät. 
                         Das Essen, das ihm als Mensch ungenießbar sein wurde, schmeckt ihm doch jetzt.</p>
-                    <h3 class="pull-quote">Er fand “altes halbverfaultes Gemüse,[...] weißer Soße,” und alten Käse sehr lecker (24).</h3>
+                    <h3 class="pull-quote">Er fand “altes halbverfaultes Gemüse, [...] weißer Soße,” und alten Käse sehr lecker (24).</h3>
                     <p>Als die Geschichte schreitet fort, isst er aber fast nichts und leidet er an der Fehlernährung.
                         Für Gregor ist das Leben nun schwierig geworden; es soll man nicht erstaunen, daß er am Ende des Buches schließlich erbittert wird und sterben will.</p>
                 </div>
             </article>
         </main>
         
-        <footer>About this site</footer>
+        <footer class="upper">
+            <div><a href="#">Wir über uns</a></div>
+            <div><a href="#">Kontakt</a></div>
+            <div><a href="#">Spenden</a></div>
+            <div><a href="#">Schwesterprojekte</a></div>
+       </footer>
     </body>
 </html>
