@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{title}}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-- 
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/normalization.css')}}" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/base.css')}}" />
+        -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <header class="site-header">
+            <h1>
+                <em>Die Verwandlung</em> 
+                <span>von Franz Kafka</span>
+            </h1>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog">All Blogs</a></li>
+                    <li><a href="/newpost">Write Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Zusammenfassung</a></li>
+                    <li><a href="#">Themen</a></li>
+                    <li><a href="#">Motive</a></li>
+                    <li><a href="#">Biographie</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <header class="page-header">
+            <h1><span>{{title}}</span></h1>
+        </header>
+
+        {% with messages = get_flashed_messages(with_categories=True) %}
+            <div class="wrapper">
+                <ul class="flash-msg">
+                    {% for category,message in messages %}
+                        {% if category != 'log' %}
+                            <li class="{{category}}">{{ message }}</li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endwith %}
+        <main>
+        {% block content %}
+        {% endblock %}
+        </main>
+
+    </body>
+</html>
